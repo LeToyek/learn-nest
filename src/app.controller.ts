@@ -9,4 +9,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  @Get('awikwok')
+  getAwikwok(): string {
+    return this.appService.getAwikwok();
+  }
 }
